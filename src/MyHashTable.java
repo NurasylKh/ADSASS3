@@ -43,7 +43,7 @@ public class MyHashTable<K, V> {
         chainArray = new HashNode[M];
     }
 
-
+///**
     /**
      * Computes a hash code for the given integer array using the polynomial hash function.
      *
@@ -206,7 +206,7 @@ public class MyHashTable<K, V> {
     public int size(){
         return size;
     }
-
+//.
     public void printBucketCounts() {
         System.out.println("Bucket distribution:");
         for (int i = 0; i < chainArray.length; i++) {
