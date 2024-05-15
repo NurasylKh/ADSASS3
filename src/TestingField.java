@@ -11,7 +11,7 @@ public class TestingField {
     /**
      * Returns a hash code for this testing field.
      *
-     * @return a hash code for this testing field
+     * @return a hash code for this testing field.
      */
     @Override
     public int hashCode() {
